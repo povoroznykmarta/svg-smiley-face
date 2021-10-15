@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+}
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+.face {
+  fill: gold;
+}
+
+.mouth {
+  fill: none;
+  stroke: #000;
+  stroke-width: 6px;
+  stroke-linecap: round;
+}
